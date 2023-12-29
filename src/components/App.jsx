@@ -12,8 +12,6 @@ const App = () => {
   const bttns = { good, neutral, bad };
 
   const onLeaveFeedback = option => {
-    console.log(option);
-
     switch (option) {
       case 'good':
         setGood(prev => prev + 1);
